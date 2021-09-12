@@ -37,6 +37,23 @@
 cd .aws
 ssh -i ~/keypar.pem hadoop@ec2-3-122-112-9.eu-central-1.compute.amazonaws.com
 
+# run spark
+spark-shell
+
+#verify spark context
+sc
+# OUTPUT: res0: org.apache.spark.SparkContext = org.apache.spark.SparkContext@404721db
+
+#load text file
+val textFile = sc.textFile("s3://elasticmapreduce/samples/hive-ads/tables/impressions/dt=2009-04-13-08-05/ec2-0-51-75-39.amazon.com-2009-04-13-08-05.log")
+
+# define the function
+val linesWithCartoonNetwork = textFile.filter(line => line.contains("cartoonnetwork.com")).count()
+# OUTPUT: linesWithCartoonNetwork: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[2] at filter at <console>:23
+
+# exeute the function
+linesWithCartoonNetwork
+# OUTPUT: res2: Long = 9
 ```
 
 ## Performance Tuning
