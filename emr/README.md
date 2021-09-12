@@ -26,6 +26,14 @@
 
 ![GitHub Logo](/images/jupyternotebook.png)
 
+## Connect to the Master Node Using SSH
+
+```bash
+# open the folder where your keypair.pem
+cd .aws
+ssh -i ~/keypar.pem hadoop@ec2-3-122-112-9.eu-central-1.compute.amazonaws.com
+
+```
 
 ## Performance Tuning
 ### Spark History Server
