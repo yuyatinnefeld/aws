@@ -29,7 +29,8 @@
 ## Connect to the Master Node Using SSH
 
 1. open the security group (Elastic MapReduce Master)
-- Inbound: Add Rule 
+2. open Inbound pannel
+3. Add Rule 
   - Type: SSH + IP Version: yIP 
 
 ```bash
