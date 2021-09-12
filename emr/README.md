@@ -28,6 +28,10 @@
 
 ## Connect to the Master Node Using SSH
 
+1. open the security group (Elastic MapReduce Master)
+- Inbound: Add Rule 
+  - Type: SSH + IP Version: yIP 
+
 ```bash
 # open the folder where your keypair.pem
 cd .aws
