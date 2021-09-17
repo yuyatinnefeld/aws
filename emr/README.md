@@ -36,7 +36,7 @@
 ```bash
 # open the folder where your keypair.pem
 cd .aws
-ssh -i ~/keypar.pem hadoop@ec2-3-122-112-9.eu-central-1.compute.amazonaws.com
+ssh -i ~/keypair.pem hadoop@ec2-3-122-112-9.eu-central-1.compute.amazonaws.com
 
 # run spark
 spark-shell
