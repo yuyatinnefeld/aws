@@ -1,6 +1,7 @@
 # Slack Notification
 ![GitHub Logo](/images/lambda-slack.png)
-
+## Goal
+Create a Lambda Application to send a notification to Slack
 
 ## Info
 - https://qiita.com/ichi_zamurai/items/5758161f4d2523eabf2f
