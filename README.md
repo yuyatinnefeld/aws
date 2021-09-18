@@ -10,6 +10,8 @@ aws config
 
 ## [EMR](https://github.com/yuyatinnefeld/aws/tree/master/emr)
 
+## [Lambda](https://github.com/yuyatinnefeld/aws/tree/master/lambda)
+
 ## [S3](https://github.com/yuyatinnefeld/aws/tree/master/s3)
 
 
