@@ -51,8 +51,7 @@ https://api.slack.com/apps/
 ```bash
 CHANNEL_NAME: learning
 WEBHOOK_NAME:lambda
-WEBHOOK_URL:
-https://hooks.slack.com/services/xxxxx
+WEBHOOK_URL: https://hooks.slack.com/services/xxxxx
 ```
 
 ## Upload request Layer into Lambda (It didn't work > officail ARN Layer)
