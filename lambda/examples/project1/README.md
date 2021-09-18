@@ -99,3 +99,5 @@ https://github.com/keithrozario/Klayers/blob/master/deployments/python3.8/arns/e
 
 ## Open the Endpoint:
 https://xxxxx.execute-api.eu-central-1.amazonaws.com/myLambdaFunc
+
+## verify the slack message
