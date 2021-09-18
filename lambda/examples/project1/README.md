@@ -55,7 +55,7 @@ WEBHOOK_URL:
 https://hooks.slack.com/services/xxxxx
 ```
 
-## Upload request Layer into Lambda (It didn't work > officail Arns Layer)
+## Upload request Layer into Lambda (It didn't work > officail ARN Layer)
 reason: to avoid getting the import requests error
 
 1. create a requests library layer (local)
