@@ -52,7 +52,7 @@ https://api.slack.com/apps/
 CHANNEL_NAME: learning
 WEBHOOK_NAME:lambda
 WEBHOOK_URL:
-https://hooks.slack.com/services/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
+https://hooks.slack.com/services/xxxxx
 ```
 
 ## Upload request Layer into Lambda (It didn't work > officail Arns Layer)
