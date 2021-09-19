@@ -7,6 +7,9 @@ aws config
 ```
 
 ## ETL Services on AWS
+### [AWS EMR](https://github.com/yuyatinnefeld/aws/tree/master/emr)
+- Server-based Hadoop
+- Old solution
 ### [AWS Glue](https://github.com/yuyatinnefeld/aws/tree/master/glue)
 - Serverless Spark Jobs
 - Fully managed ETL service
@@ -18,13 +21,9 @@ aws config
 - Creates and manages the compute resources in your AWS account, giving you full control and visibility into the resources being used
 - New Service
 
-### [AWS Kinesis](https://github.com/yuyatinnefeld/aws/tree/master/kenesis)
+### [AWS Kinesis](https://github.com/yuyatinnefeld/aws/tree/master/kinesis)
 - SQL queries on streaming data
 - can run Glue ETL job on stream
-
-### [AWS EMR](https://github.com/yuyatinnefeld/aws/tree/master/emr)
-- Server-based Hadoop
-- Old solution
                               
 ### AWS Data Pipeline
 - Server-based ETL orchestration
