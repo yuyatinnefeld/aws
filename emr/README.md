@@ -1,5 +1,5 @@
 # EMR (Elastic Map Reduce)
-
+- Server-based Hadoop
 ## Info
 - https://lynnlangit.medium.com/scaling-custom-machine-learning-on-aws-part-3-kubernetes-5427d96f825b
 
