@@ -6,23 +6,23 @@
 aws config
 ```
 
-## ETL on AWS
-### AWS Glue
+## ETL Services on AWS
+### [AWS Glue](https://github.com/yuyatinnefeld/aws/tree/master/glue)
 - Serverless Spark Jobs
 - Fully managed ETL service
 - Integrated Data Catalog
 - ETL jobs are Scala or Python based
 - popular solution for ETL
-### AWS Batch
+### [AWS Batch](https://github.com/yuyatinnefeld/aws/tree/master/batch)
 - Server-based batch workloads
 - Creates and manages the compute resources in your AWS account, giving you full control and visibility into the resources being used
 - New Service
 
-### AWS Kinesis
+### [AWS Kinesis](https://github.com/yuyatinnefeld/aws/tree/master/kenesis)
 - SQL queries on streaming data
 - can run Glue ETL job on stream
 
-### AWS EMR
+### [AWS EMR](https://github.com/yuyatinnefeld/aws/tree/master/emr)
 - Server-based Hadoop
 - Old solution
                               
@@ -37,19 +37,8 @@ aws config
 
 ## AWS Services
 ### [EC2](https://github.com/yuyatinnefeld/aws/tree/master/ec2)
-
-### [EMR](https://github.com/yuyatinnefeld/aws/tree/master/emr)
-
 ### [Lambda](https://github.com/yuyatinnefeld/aws/tree/master/lambda)
 
 ### [S3](https://github.com/yuyatinnefeld/aws/tree/master/s3)
-
-### [Glue](https://github.com/yuyatinnefeld/aws/tree/master/glue)
-
-### [Kinesis](https://github.com/yuyatinnefeld/aws/tree/master/kenesis)
-
-### [AWS Batch](https://github.com/yuyatinnefeld/aws/tree/master/batch)
-
 ### [Fargate](https://github.com/yuyatinnefeld/aws/tree/master/fargate)
-
 ### [Redshift](https://github.com/yuyatinnefeld/aws/tree/master/redshift)
