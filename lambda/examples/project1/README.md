@@ -1,5 +1,4 @@
 # Job Scraper
-![GitHub Logo](/images/lambda-slack.png)
 ## Goal
 Build a Web Scraper With Python which scrapes the job offer website and list up the job offers
 
