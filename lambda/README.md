@@ -62,14 +62,14 @@ Calculation:
 3. Total Cost = 0,4 + 33,33 = 33, 74 USD
 
 #### Example B:
-- Request = 3,000,000 times
+- Request = 8760 times (24h x 365)
 - Memory = 512（MB)
-- 1 sec per Execution
+- 5 sec per Execution
 
 Calculation:
-- Execution Time = 3,000,000 * 1 sec = 3,000,000 sec
-- Sec * GB = 3,000,000 * 512 / 1024 = 1,500,000
+- Execution Time = 8760 * 5 sec = 43.800 sec
+- Sec * GB = 43800 * 512 / 1024 = 21.900
 
-1. Request Cost = 1,500,000 * ($0.2 / 1,000,000) = 0,3 USD
-2. Duration Cost = 0.0000166667 * 1,500,000 = 25 USD
-3. Total Cost = 0,3 + 25 = 25,03 USD
+1. Request Cost = 21900 * ($0.2 / 1,000,000) = 0.00438 USD
+2. Duration Cost = 0.0000166667 * 21900 = 0.36500073 USD
+3. Total Cost = 0.00438+0.36500073 = 0.36938073 USD
