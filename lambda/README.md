@@ -4,6 +4,8 @@
 - [Project1 - Scraper](https://github.com/yuyatinnefeld/aws/tree/master/lambda/examples/project1)
 - [Project2 - Slack Notification](https://github.com/yuyatinnefeld/aws/tree/master/lambda/examples/project2)
 
+- [Project3 - Data Transformation (S3)](https://github.com/yuyatinnefeld/aws/tree/master/lambda/examples/project3)
+
 ## About
 AWS Lambda is n event-driven serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic. 
 
